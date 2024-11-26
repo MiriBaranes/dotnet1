@@ -92,7 +92,7 @@ Example of `appsettings.json` configuration for MySQL:
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=bezeqdb;User=root;Password=yourpassword;"
+    "DefaultConnection": "Server=localhost;Database=dotnetapp;User=root;Password=1234;"
   }
 }
 ```
@@ -101,13 +101,12 @@ Example of `appsettings.json` configuration for MySQL:
 
 ### **Running the Project**
 1. **Backend**:
-   - Navigate to the backend directory.
    - Run `dotnet restore` to install dependencies.
    - Update the database using `dotnet ef database update`.
    - Start the server with `dotnet run`.
 
 2. **Frontend**:
-   - Navigate to the frontend directory.
+   - git: https://github.com/MiriBaranes/bezeq-frontend.git 
    - Run `npm install` to install dependencies.
    - Start the application with `npm start`.
 
